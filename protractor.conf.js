@@ -76,29 +76,11 @@ exports.config = {
     },
 
     {
-      seleniumAddress: "https://us1.appium.testobject.com/wd/hub",
-      testobject_api_key: process.env.TESTOBJECT_KEY,
-      browserName: 'chrome',
-      platformName: 'android'
-    },
-    {
-      seleniumAddress: "https://us1.appium.testobject.com/wd/hub",
-      testobject_api_key: process.env.TESTOBJECT_KEY,
-      browserName: 'firefox',
-      platformName: 'android'
-    },
-    {
       browserName: 'browser',
       deviceName: 'android emulator',
       platformVersion: '6.0'
     },
 
-    {
-      seleniumAddress: "https://us1.appium.testobject.com/wd/hub",
-      testobject_api_key: process.env.TESTOBJECT_KEY,
-      browserName: 'safari',
-      platformName: 'ios'
-    },
     {
       browserName: 'safari',
       deviceName: 'iphone simulator',
